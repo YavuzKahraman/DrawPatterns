@@ -58,9 +58,53 @@ public class ButterflyStarPatterns {
         }
 	}
 
+	/*
+	 * *****
+	 * *****
+	 * *****
+	 * *****
+	 * *****
+	 * 
+	 * */
+	
+	public static void squareFilledStars(int n) {
+		int i,j;
+		for (i = 1; i <=n; i++) {
+			for (j = 1;  j<= n ; j++) {
+				System.out.print(" * ");
+			}
+			System.out.println();
+		}
+	}
+	
+	/*right half pyramid
+	 * *
+	 * **
+	 * ***
+	 * ****
+	 * *****
+	 * */
+	public static void rightHalfPyramid(int n) {
+		int i, j ;
+		for(i = 1; i<=n; i++) {
+			for(j=1;j<=i;j++) {
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+		System.out.print("****************\n");
+		for(i=n;i>=1;i--) {
+			for(j=1;j<=i;j++) {
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		bflyShape(5);
+		bflyShape(5);System.out.println();
+		squareFilledStars(5);System.out.println();
+		rightHalfPyramid(5);System.out.println();
 	}
 
 }
