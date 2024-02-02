@@ -163,7 +163,7 @@ public class ButterflyStarPatterns {
 		}
 	}
 	
-	/*reverse right aligned numbers
+	/*reverse left aligned numbers
 	 * 5 5 5 5 5
 	 * 4 4 4 4
 	 * 3 3 3
@@ -171,7 +171,7 @@ public class ButterflyStarPatterns {
 	 * 1
 	 *   
 	 * */
-	public static void reverserightAlignedNumbers(int n) {
+	public static void reverseleftAlignedNumbers(int n) {
 		for (int i = 0; i < n; i++) {
 			for (int j = 1; j <= n-i; j++) {
 				System.out.print(" "+(n-i)+" ");
@@ -183,6 +183,26 @@ public class ButterflyStarPatterns {
 		}
 	}
 	
+	/*
+	 * reverse right aligned
+	 * 5 5 5 5 5
+	 *   4 4 4 4
+	 *     3 3 3
+	 *       2 2
+	 *         1
+	 * */
+	public static void reverseRightAlignedNumbers(int n) {
+		for (int i = n; i > 0	; i--) {
+			for (int j = 0; j < n-i; j++) {
+				System.out.print(" ");
+			}
+			for (int j = 0; j < i; j++) {
+				System.out.print(i+" ");
+			}
+			System.out.println();
+		}
+			
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		bflyShape(5);System.out.println();
@@ -190,7 +210,8 @@ public class ButterflyStarPatterns {
 		rightHalfPyramid(5);System.out.println();
 		leftAlignedDNumbers(5);System.out.println();
 		rightAlignedNumbers(5);System.out.println();
-		reverserightAlignedNumbers(5);System.out.println();
+		reverseleftAlignedNumbers(5);System.out.println();
+		reverseRightAlignedNumbers(5);System.out.println();
 	}
 
 }
