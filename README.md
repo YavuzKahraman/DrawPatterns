@@ -1,82 +1,20 @@
 mostly asked shape of patterns with stars/numbers are shown. 
 patterns are mostly look like:
 
-*        *
-**      **
-***    ***
-****  ****
-**********
-**********
-****  ****
-***    ***
-**      **
-*        *
+1- Butterfly
 
--------------------
+2- filled square with stars
 
+3- arrow type left aligned numbers
 
+4- left aligned decreasing numbers triangle
 
- *  *  *  *  * 
- *  *  *  *  * 
- *  *  *  *  * 
- *  *  *  *  * 
- *  *  *  *  * 
--------------------
+5- left aligned increasing numbers triangle
 
+6- right aligned increasing numbers and spaces are dots
 
-1
-22
-333
-4444
-55555
-55555
-4444
-333
-22
-1
+7- left aligned reverse triangle and spaces are represented by dots
 
------------------------
-
-
-
-5 5 5 5 5 
-4 4 4 4 
-3 3 3 
-2 2 
-1 
------------------------
-
-
-
-1 
-1 2 
-1 2 3 
-1 2 3 4 
-1 2 3 4 5 
--------------------------
-
-
-. . . . 1 
-. . . 2 2 
-. . 3 3 3 
-. 4 4 4 4 
-5 5 5 5 5 
-------------------------
-
-
- 5  5  5  5  5 
- 4  4  4  4  . 
- 3  3  3  .  . 
- 2  2  .  .  . 
- 1  .  .  .  . 
-------------------------
-
-
-5 5 5 5 5 
- 4 4 4 4 
-  3 3 3 
-   2 2 
-    1 
-
+8- equilateral triangle with reverse decreasing numbers
 
 To see details, check src ile
