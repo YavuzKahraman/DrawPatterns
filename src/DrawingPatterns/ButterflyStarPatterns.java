@@ -184,14 +184,14 @@ public class ButterflyStarPatterns {
 	}
 	
 	/*
-	 * reverse right aligned
-	 * 5 5 5 5 5
+	 * reverse triangular numbers
+	 *  5 5 5 5 5
 	 *   4 4 4 4
-	 *     3 3 3
-	 *       2 2
-	 *         1
+	 *    3 3 3
+	 *     2 2
+	 *      1
 	 * */
-	public static void reverseRightAlignedNumbers(int n) {
+	public static void reverseTriangularNumbers(int n) {
 		for (int i = n; i > 0	; i--) {
 			for (int j = 0; j < n-i; j++) {
 				System.out.print(" ");
@@ -211,7 +211,7 @@ public class ButterflyStarPatterns {
 		leftAlignedDNumbers(5);System.out.println();
 		rightAlignedNumbers(5);System.out.println();
 		reverseleftAlignedNumbers(5);System.out.println();
-		reverseRightAlignedNumbers(5);System.out.println();
+		reverseTriangularNumbers(5);System.out.println();
 	}
 
 }
