@@ -1,6 +1,6 @@
 package DrawingPatterns;
 
-import java.util.Iterator;
+//import java.util.Iterator;
 
 public class ButterflyStarPatterns {
 	
